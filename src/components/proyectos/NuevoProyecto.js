@@ -19,7 +19,7 @@ const NuevoProyecto = () => {
     }
 
     // Cuando el usuario envía un proyecto
-    onSubmitProyecto = e => {
+    const onSubmitProyecto = e => {
         e.preventDefault();
 
         // Validar el proyecto
